@@ -1,0 +1,24 @@
+git restore --staged <file>		把file提取出来，不add 进暂存区
+
+git commit -am"update test5 and test6" 	可以add和commit一起完成，但是只限于修改的文件，新增的文件还是要 git add
+
+git pull	拉取远端更新
+
+git log 查看历史状态
+
+git reset --mixed   		比如撤销倒数第一次提交，就reset倒数第二次commit id
+
+
+分支操作
+git branch
+
+git branch -a 		查看所有的
+
+git checkout -b feature2		创建分支 
+
+git push --set-upstream origin feature2
+
+
+git switch main		切换到main 分支
+
+git branch -d feature2	删除feature2分支
